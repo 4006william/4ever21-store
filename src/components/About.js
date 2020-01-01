@@ -16,7 +16,7 @@ class About extends Component {
                         WARNING! This is just a project and not a real active shopping website.
                             View the source code for this website here&nbsp; 
                             <a style={{ color: 'coral' }}
-                            href="https://www.cars.com"
+                            href="https://github.com/4006william/4ever21-store"
                             target="_blank">PROJECT CODE</a>
                             &nbsp;. <br /><br />
                             This web app is built using React and Redux. 
