@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Navigation from '../components/Navigation'
-import { Container, Divider, Switch } from '@material-ui/core'
+import { Container, Divider } from '@material-ui/core'
 
 class About extends Component {
 

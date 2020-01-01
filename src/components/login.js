@@ -19,7 +19,6 @@
   
     login = (e) => {
       e.preventDefault()
-      window.location.href="/home"
       // this.setState(() => ({
       //   redirectToReferrer: true
       // }))
@@ -53,8 +52,8 @@
                   <input onChange={this.handleTextChange}
                     value={this.state.password}
                     name="password" type="password" placeholder="*********" required/><br />
-                  <button type="submit" className="logger-btn">Log in</button> <br />
-                  <a href="/signup">Don't have an account? Sign Up</a>
+                  <button type="submit" className="logger-btn"><Link to="/home">Log in</Link></button> <br />
+                  <p><Link to="/signup">Don't have an account? Sign Up</Link></p>
             </form>
         </div>
       );

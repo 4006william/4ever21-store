@@ -14,7 +14,6 @@ class Signup extends Component {
   }
   signup = (e) => {
     e.preventDefault()
-    window.location.href="/success"
   }
 
     render(){
@@ -44,8 +43,8 @@ class Signup extends Component {
                     value={this.state.confirmPassword}
                     name="confirmPassword" type="password" placeholder="*********" required/><br />
                     
-                  <button type="submit" className="logger-btn">Sign Up</button> <br />
-                  <a href="/login">Already have an account? Log in</a>
+                  <button type="submit" className="logger-btn"><Link to="/success">Sign up</Link></button> <br />
+                  <p><Link to="/login">Already have an account? Log in</Link></p>
             </form>
            
         </div>
