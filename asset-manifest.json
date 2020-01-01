@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/4ever21-store/static/css/main.8e532f42.chunk.css",
-    "main.js": "/4ever21-store/static/js/main.d29c1edb.chunk.js",
-    "main.js.map": "/4ever21-store/static/js/main.d29c1edb.chunk.js.map",
+    "main.js": "/4ever21-store/static/js/main.5238a898.chunk.js",
+    "main.js.map": "/4ever21-store/static/js/main.5238a898.chunk.js.map",
     "runtime-main.js": "/4ever21-store/static/js/runtime-main.fa8f7bec.js",
     "runtime-main.js.map": "/4ever21-store/static/js/runtime-main.fa8f7bec.js.map",
     "static/js/2.56152f16.chunk.js": "/4ever21-store/static/js/2.56152f16.chunk.js",
     "static/js/2.56152f16.chunk.js.map": "/4ever21-store/static/js/2.56152f16.chunk.js.map",
     "index.html": "/4ever21-store/index.html",
-    "precache-manifest.c181bffa550a3b1eae4c14b2df77e2b8.js": "/4ever21-store/precache-manifest.c181bffa550a3b1eae4c14b2df77e2b8.js",
+    "precache-manifest.28a56041a55702d02de70bcb081052e2.js": "/4ever21-store/precache-manifest.28a56041a55702d02de70bcb081052e2.js",
     "service-worker.js": "/4ever21-store/service-worker.js",
     "static/css/main.8e532f42.chunk.css.map": "/4ever21-store/static/css/main.8e532f42.chunk.css.map",
     "static/js/2.56152f16.chunk.js.LICENSE": "/4ever21-store/static/js/2.56152f16.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fa8f7bec.js",
     "static/js/2.56152f16.chunk.js",
     "static/css/main.8e532f42.chunk.css",
-    "static/js/main.d29c1edb.chunk.js"
+    "static/js/main.5238a898.chunk.js"
   ]
 }
