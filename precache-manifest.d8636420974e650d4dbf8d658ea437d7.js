@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df54b430ba86b25fb3218443d054250e",
+    "revision": "a4824b04562b81b337104fb35a52ddc9",
     "url": "/4ever21-store/index.html"
   },
   {
-    "revision": "d0098579047cab21077f",
+    "revision": "d5ef6f6fed137f9868ea",
     "url": "/4ever21-store/static/css/main.8e532f42.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/4ever21-store/static/js/2.8a653a7f.chunk.js.LICENSE"
   },
   {
-    "revision": "d0098579047cab21077f",
-    "url": "/4ever21-store/static/js/main.cb6e5ec5.chunk.js"
+    "revision": "d5ef6f6fed137f9868ea",
+    "url": "/4ever21-store/static/js/main.ca390085.chunk.js"
   },
   {
     "revision": "c2b3c768e34c282ab6a4",
