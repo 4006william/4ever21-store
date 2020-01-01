@@ -1,38 +1,148 @@
-.App {
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  width: 20vw;
+  margin: 20px;
+}
+.card img{
+  width: 160px;
+  height: 160px;
+}
+
+.details{
+  background-color: coral;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.add-product {
+  background: #4caf50 !important;
+  color: white !important;
+}
+
+.icon {
+  font-size: medium !important;
+}
+
+.icon:hover {
+  cursor: pointer
+}
+
+.text-gray {
+  color: gray
+}
+
+.text-red {
+  color: red
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+}
+
+.nav-list-item:hover{
+  color: blue;
+}
+
+.nav-list-item {
+  margin: auto 10px;
+}
+
+.product-container {
+  margin: 50px;
+}
+
+.product-paper {
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-paper img{
+  width: 260px;
+  height: 260px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list-body{
+  background-color: lightgray;
+  padding: 0;
+  height: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome{
+  /* background-color: coral; */
+  position: relative;
+}
+.welcome img{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logger-btn{
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  background: coral;
+  color: white;
+  cursor: pointer;
+}
+.logger-btn:hover{
+  background: rgb(235, 120, 78);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login{
+  text-align: center;
+}
+
+.logo-btn{
+  width: 100%;
+  background-color: coral;
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+input{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid gray;
 }
