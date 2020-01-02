@@ -6,17 +6,20 @@ const Navigation = () => {
     return (
         <AppBar position="relative" style={{ backgroundColor: "coral" }}>
             <Toolbar>
-                <IconButton color="green">
+                <IconButton color="inherit">
                 </IconButton>
                 <Typography variant="h4" style={{ flexGrow: "1", fontStyle: "italic", fontWeight: "bolder" }}>
                 <Link to="/">4ever21</Link>
                 </Typography>
                 <ul className="nav-list">
                     <li className="nav-list-item">
-                        <Link to="/home">Products</Link>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li className="nav-list-item">
                         <Link to="/addItem">Add Item</Link>
+                    </li>
+                    <li className="nav-list-item">
+                        <Link to="/addToCart">Cart</Link>
                     </li>
                     <li className="nav-list-item">
                         <Link to="/about">About</Link>

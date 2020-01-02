@@ -7,7 +7,7 @@ import logo from '../images/logo.jpeg'
 const Welcome = () => {
 
       const guestLogin = () => {
-        document.cookie= 'loggedIn=true;max-age = 120*1000'
+        document.cookie= 'loggedIn=true;max-age = 240*1000'
       };
     return (
         <div className="welcome">
@@ -20,7 +20,7 @@ const Welcome = () => {
                 <button className="logger-btn">
                   <Link to="/signup"><h4>Sign Up</h4></Link>
                 </button>
-                <p><Link to="/home">Already have an account? Log in</Link></p>
+                <p><Link to="/login">Already have an account? Log in</Link></p>
             </div>
         </div>
     )

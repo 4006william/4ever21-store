@@ -81,7 +81,7 @@ class AddProduct extends Component {
                                     required />
                                 
                                 <br />
-                                <Button variant="contained" color="tertiary" type="submit">Submit</Button>
+                                <Button variant="contained" color="inherit" type="submit">Submit</Button>
                             </form>
                         </DialogContent>
                     </Dialog>

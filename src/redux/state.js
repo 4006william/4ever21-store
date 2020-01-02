@@ -3,12 +3,13 @@ export default {
        username: 'guest',
        email: 'guest@example.com'
     },
-    
-    makes: [],
+
+    cartProducts: [],
  
     products: [
        {
           "id": 1,
+          "quantity": 1,
           "brand": "colourpop",
           "name": "Lippie Pencil",
           "price": "5.0",
@@ -23,6 +24,7 @@ export default {
        },
        {
           "id": 2,
+          "quantity": 1,
           "brand": "colourpop",
           "name": "Blotted Lip",
           "price": "5.5",
@@ -37,6 +39,7 @@ export default {
        },
        {
           "id": 3,
+          "quantity": 1,
           "brand": "colourpop",
           "name": "Lippie Stix",
           "price": "5.5",
@@ -51,6 +54,7 @@ export default {
        },
        {
           "id": 4,
+          "quantity": 1,
           "brand": "colourpop",
           "name": "No Filter Foundation",
           "price": "12.0",
@@ -65,6 +69,7 @@ export default {
        },
        {
           "id": 5,
+          "quantity": 1,
           "brand": "boosh",
           "name": "Lipstick",
           "price": "26.0",
@@ -79,6 +84,7 @@ export default {
        },
        {
           "id": 6,
+          "quantity": 1,
           "brand": "deciem",
           "name": "Serum Foundation",
           "price": "6.7",
@@ -98,6 +104,7 @@ export default {
        },
        {
           "id": 7,
+          "quantity": 1,
           "brand": "deciem",
           "name": "Coverage Foundation",
           "price": "6.9",
@@ -117,6 +124,7 @@ export default {
        },
        {
           "id": 8,
+          "quantity": 1,
           "brand": "zorah biocosmetiques",
           "name": "Liquid Liner",
           "price": "29.0",
@@ -131,6 +139,7 @@ export default {
        },
        {
           "id": 9,
+          "quantity": 1,
           "brand": "zorah biocosmetiques",
           "name": "Eyeshadow",
           "price": "10.0",
@@ -145,6 +154,7 @@ export default {
        },
        {
           "id": 10,
+          "quantity": 1,
           "brand": "w3llpeople",
           "name": " Realist Invisible Setting Powder",
           "price": "4.0",
@@ -160,6 +170,7 @@ export default {
        },
        {
           "id": 11,
+          "quantity": 1,
           "brand": "sally b's skin yummies",
           "name": "B Smudged",
           "price": "8.0",
@@ -174,6 +185,7 @@ export default {
        },
        {
           "id": 12,
+          "quantity": 1,
           "brand": "sally b's skin yummies",
           "name": "B Glossy Lip Gloss",
           "price": "25.0",
@@ -188,6 +200,7 @@ export default {
        },
        {
           "id": 13,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Multi Purpose Powder - Blush & Eye",
           "price": "11.0",
@@ -204,6 +217,7 @@ export default {
        },
        {
           "id": 14,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Multi Purpose Powder - Blush & Eye",
           "price": "6.0",
@@ -220,6 +234,7 @@ export default {
        },
        {
           "id": 15,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Multi Purpose Powder - Eye Shadow & Face",
           "price": "7.0",
@@ -236,6 +251,7 @@ export default {
           },
        {
           "id": 16,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Pressed Powder Foundation",
           "price": "14.99",
@@ -252,6 +268,7 @@ export default {
        },
        {
           "id": 17,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Bronzer - loose",
           "price": "8.0",
@@ -268,6 +285,7 @@ export default {
        },
        {
           "id": 18,
+          "quantity": 1,
           "brand": "rejuva minerals",
           "name": "Bronzer - pressed",
           "price": "12.0",
@@ -284,6 +302,7 @@ export default {
        },
        {
           "id": 19,
+          "quantity": 1,
           "brand": "penny lane organics",
           "name": "Lip Gloss",
           "price": "15.0",
@@ -301,6 +320,7 @@ export default {
        },
        {
           "id": 20,
+          "quantity": 1,
           "brand": "nudus",
           "name": "Amalia",
           "price": "22.0",

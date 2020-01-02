@@ -15,17 +15,17 @@ const products = (state = [], action) => {
     }
 }
 
-const makes = (state = [], action) => {
+const cartProducts = (state = [], action) => {
     switch(action.type) {
-        case 'FETCH_MAKES':
-            return [...state, ...action.value]
-        case 'DELETE_MAKE':
-            const make = [ ...state ]
-            make.splice(action.value, 1)
-            return make
+        case 'ADD_PRODUCT':
+            return [ ...state, action.value ]
+        case 'REMOVE_PRODUCT':
+            const cartProducts = [ ...state ]
+            cartProducts.splice(action.value, 1)
+            return cartProducts
         default:
             return state
     }
 }
 
-export default combineReducers({ user, products, makes })
+export default combineReducers({ user, products, cartProducts})

@@ -2,9 +2,11 @@ import React from 'react'
 import { Switch, Route, Redirect } from 'react-router'
 import Home from './containers/Home'
 import About from './components/About'
+import Receipt from './components/Receipt'
 import Welcome from './components/welcome'
 import Product from './containers/Product'
 import AddItem from './containers/AddItem'
+import AddToCart from './containers/AddToCart'
 import Login from './components/login'
 import Signup from './components/signup'
 import Success from './components/success'
@@ -33,8 +35,10 @@ const Router = () => {
             <Route exact path="/" component={Welcome} />
             <ProtectedRoute exact path="/home" component={Home} />
             <ProtectedRoute path="/about" component={About} />
+            <ProtectedRoute path="/receipt" component={Receipt} />
             <ProtectedRoute path="/product/:id" component={Product} />
             <ProtectedRoute path="/addItem" component={AddItem} />
+            <ProtectedRoute path="/addToCart" component={AddToCart} />
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
             <Route exact path="/success" component={Success}/>

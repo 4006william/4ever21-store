@@ -22,13 +22,12 @@ class About extends Component {
                             This web app is built using React and Redux. 
                             All data was sourced from http://makeup-api.herokuapp.com/
                             <br /><br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                            anim id est laborum.
+                            Like the project and want to discuss further?&nbsp; 
+                            <a style={{ color: 'coral' }}
+                            href="https://www.linkedin.com/in/william-kiyola-676480161/"
+                            target="_blank">Contact me</a>
+                            &nbsp;and we'll 
+                            make it happen!
                         </p>
                         <Divider />
                         <div>

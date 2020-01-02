@@ -22,8 +22,7 @@
       // this.setState(() => ({
       //   redirectToReferrer: true
       // }))
-      document.cookie= 'loggedIn=true;max-age = 120*1000'
-      // set loggedIn = true and max-age = 60*1000 (one minute)
+      document.cookie= 'loggedIn=true;max-age = 240*1000'
     }
   
     render() {

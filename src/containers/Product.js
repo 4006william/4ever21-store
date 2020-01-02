@@ -3,7 +3,8 @@ import Product from '../components/Product'
 
 const mapStateToProps = (state) => {
     return {
-        products: state.products
+        products: state.products,
+        cartProducts: state.cartProducts
     }
 }
 
